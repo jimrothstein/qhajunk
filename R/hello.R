@@ -18,7 +18,8 @@ library(devtools)
 library(usethis)
 
 # READ:  https://usethis.r-lib.org/reference/use_github_action.html
-usethis::use_github_action("check-standard.yaml")
+# usethis::use_github_action("check-standard.yaml")
+usethis::use_github_action("render-readme.yaml")
 
 1
 hello <- function() {
